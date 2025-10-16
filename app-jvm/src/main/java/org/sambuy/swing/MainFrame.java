@@ -2,9 +2,9 @@ package org.sambuy.swing;
 
 
 
-import org.sambuy.mock.MockUserRepository;
-import org.sambuy.usecases.user.GetUserUseCase;
-import org.sambuy.usecases.user.RegisterUserUseCase;
+import org.sambuy.gateways.MockUserRepository;
+import org.sambuy.usecases.user.usecase.GetUserUseCase;
+import org.sambuy.usecases.user.usecase.RegisterUserUseCase;
 import org.sambuy.usecases.user.impl.GetUserUseCaseImpl;
 import org.sambuy.usecases.user.impl.RegisterUserUseCaseImpl;
 

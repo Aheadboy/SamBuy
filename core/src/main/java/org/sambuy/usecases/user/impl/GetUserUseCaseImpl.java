@@ -1,9 +1,9 @@
 package org.sambuy.usecases.user.impl;
 
 import org.sambuy.entities.User;
-import org.sambuy.usecases.user.GetUserUseCase;
-import org.sambuy.usecases.user.UserOutputBoundary;
-import org.sambuy.usecases.user.UserRepository;
+import org.sambuy.usecases.user.usecase.GetUserUseCase;
+import org.sambuy.usecases.user.interfaces.presenters.UserOutputBoundary;
+import org.sambuy.usecases.user.interfaces.gateways.UserRepository;
 
 public class GetUserUseCaseImpl implements GetUserUseCase {
     private final UserRepository repository;

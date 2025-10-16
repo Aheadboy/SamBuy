@@ -3,7 +3,7 @@ package org.sambuy.swing;
 
 import org.sambuy.entities.Order;
 import org.sambuy.entities.User;
-import org.sambuy.usecases.user.UserOutputBoundary;
+import org.sambuy.usecases.user.interfaces.presenters.UserOutputBoundary;
 
 import javax.swing.*;
 import java.util.List;

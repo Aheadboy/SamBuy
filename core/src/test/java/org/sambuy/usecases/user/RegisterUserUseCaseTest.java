@@ -4,6 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.sambuy.entities.User;
 import org.sambuy.usecases.user.impl.RegisterUserUseCaseImpl;
+import org.sambuy.usecases.user.interfaces.presenters.UserOutputBoundary;
+import org.sambuy.usecases.user.interfaces.gateways.UserRepository;
+import org.sambuy.usecases.user.usecase.RegisterUserUseCase;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;

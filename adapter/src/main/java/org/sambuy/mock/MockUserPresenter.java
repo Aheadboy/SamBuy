@@ -4,7 +4,7 @@ package org.sambuy.mock;
 
 import org.sambuy.entities.Order;
 import org.sambuy.entities.User;
-import org.sambuy.usecases.user.UserOutputBoundary;
+import org.sambuy.usecases.user.interfaces.presenters.UserOutputBoundary;
 
 import java.util.List;
 import java.util.logging.Logger;

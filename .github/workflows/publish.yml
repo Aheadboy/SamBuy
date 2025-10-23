@@ -4,7 +4,7 @@ name: Publish auth-core to JitPack
 on:
   push:
     tags:
-      - ''  # 触发：v1.0.0
+      - 'v*'  # 触发：v1.0.0
 
 jobs:
   publish:

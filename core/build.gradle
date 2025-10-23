@@ -22,3 +22,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+// 关键：JitPack 需要这个
+tasks.jar {
+    archiveFileName.set("${project.name}-${project.version}.jar")
+}
